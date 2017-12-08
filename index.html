@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Home - Christian School International</title>
+        <meta name="author" content="Ivan Louis A. Arellano">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+        <link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="icon" href="csi-logo.png">
+    </head>
+    <body>
+        <div class="csi">
+            <a href="index.html">
+            <img src="csi-logo.png" title="Christian School International" alt="Christian School International"><br>Christian School International</a>
+        </div>
+		<!-- responsive navigation bar -->
+        <div class="topnav" id="myTopnav">
+            <a class="active" href="#">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+            <a href="#donate">Donate</a>
+			<a href="#scc"><img class="image-resize" src="scc-logo.png"> SCC</a>
+            <a href="javascript:void(0);" style="font-size:14.6px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+		<!-- content -->
+        <div class="header-content">
+            <h1>Latest News</h1>
+        </div>
+        <div class="content">
+            <a href="#post"><h2>SCC Facebook Page</h2></a>
+            <h4>Posted by <a href="#">admin</a></h4>
+            <hr>
+            <p>Check the SCC Facebook page for a lot of information about the school and more.</p>
+			<a href="#"><img title="SCC" alt ="SCC" id="center-block-img" width="200px" src="scc-logo.png"></a>
+            <br>
+            <a id="button" href="#" class="button">Read more of the post</a>
+        </div>
+		<div class="content">
+            <a href="#post"><h2>Website's Birth</h2></a>
+            <h4>Posted by <a href="#">admin</a></h4>
+            <hr>
+            <p>This website was created on December 2, 2017.</p>
+            <br>
+            <a id="button" href="#" class="button">Read more of the post</a>
+        </div>
+		<!-- footer -->
+        <div class="footer">Christian School International &reg; 2017, the logos in this website are property of CSI.</div>
+        <!-- javascripts -->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                        } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </body>
+</html>
